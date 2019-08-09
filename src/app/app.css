@@ -1,0 +1,125 @@
+/* 1em = 16px */
+
+.i-container {
+    min-width: 28.5em;
+    max-width: 85em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 434px) {
+    .i-icon-label { display: none; }
+    .i-header-group { float: right; }
+    .i-header-group .ui.label {
+        margin-right: 0;
+    }
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 9.5em;
+    background-color: white;
+    z-index: 5;
+}
+
+header > .testeira {
+    background-color: #56b856;
+    height: 3em;
+}
+
+header > .i-brand-menu {
+    height: 6.5em;
+    border-bottom: 1px solid #eee;
+}
+
+header > .testeira .ui.label {
+    margin-top: .55em;
+    color: white !important;
+    background-color: #56b856;
+}
+
+.i-header-link > .icon {
+    margin-right: .25em !important;
+}
+
+.i-brand-logo {
+    float: left;
+    height: 88px;
+    width: 88px; 
+}
+
+.i-brand-logo > img {
+    height: 100%;
+    margin-left: .25em;    
+}
+
+.i-brand-description {
+    float: left;
+    margin: 1em 0 1em 1em;
+}
+
+.i-brand-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00695c;
+    margin: 0; padding: 0;
+    font-family: Charm, cursive;
+}
+
+.i-brand-subtitle {
+    font-size: 1.125em;
+    color: #00897b;
+    font-weight: normal;
+    margin: 0; padding: 0;
+    font-family: Charm, cursive;
+}
+
+.i-menu {
+    margin-top: 2em;
+    float: right;
+    background-color: white;
+    z-index: 5;
+}
+
+@media screen and (max-width: 677px) {
+    .i-menu { 
+        padding: 1rem 0 1rem 0;
+        margin-top: 3px;
+        width: 100%;
+    }
+    section {
+        margin-top: 14.5em;
+    } 
+}
+
+@media screen and (min-width: 678px) {
+    section {
+        margin-top: 10.5em;
+    }   
+}
+
+article {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #eee;
+}
+
+.i-default {
+    color: #888;
+}
+
+.i-paragraph {
+    margin: 0; padding: .5rem 0 0 0;
+    line-height: 1.5;
+}
+
+.i-welcome {
+    padding-top: 3em !important;
+}
+
+.i-comments {
+    max-height: 27em;
+    overflow-y: hidden;
+}

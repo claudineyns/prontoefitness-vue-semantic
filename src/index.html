@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <title>Pronto e Fitness</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Alimentação Saudável, comida congelada fitness">
+    <meta name="author" content="Claudiney Nascimento">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pronto e Fitness</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif|Charm|Open+Sans|Montserrat|Norican">
+    <link rel="icon" type="image/png" href="./static/images/logo.png" />
+    <link rel="canonical" href="http://www.prontoefitness.com.br/">
+    <link rel="stylesheet" href="./static/vendor/semantic/semantic.min.css">
+    <link rel="stylesheet" href="./app/app.css">
+    <link rel="stylesheet" href="./app/page.css">
+    <style type="text/css">
+        .i-vue-startup {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="i-vue-startup">
+    <main class="container">
+        <header>
+            <testeira></testeira>
+            <brand-menu :title="title" :subtitle="subtitle" :menus="menus"></brand-menu>
+        </header>
+        <section>
+            <article class="i-container">
+                <welcome></welcome>
+            </article>
+            <article class="i-container i-comments">
+                <comments></comments>
+            </article>
+            <article class="i-container">
+                <attendance></attendance>
+            </article>
+        </section>
+    </main>
+    <script src="./static/vendor/semantic/jquery-3.1.1.min.js"></script>
+    <script src="./static/vendor/semantic/semantic.min.js"></script>
+    <script src="./static/vendor/vue/vue-min.js"></script>
+    <script src="./app/componentes/testeira-component.js"></script>
+    <script src="./app/componentes/brand-menu-component.js"></script>
+    <script src="./app/componentes/comments-component.js"></script>
+    <script src="./app/componentes/attendance-component.js"></script>
+    <script src="./app/componentes/welcome-component.js"></script>
+    <script src="./app/app.js"></script>
+</body>
+
+</html>
