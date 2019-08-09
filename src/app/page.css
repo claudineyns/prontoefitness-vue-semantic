@@ -84,7 +84,7 @@
 }
 
 .attendance-item {
-    display: inline-block;
+    display: block;
 }
 
 .testimonial-person {

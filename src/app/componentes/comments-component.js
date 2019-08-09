@@ -1,10 +1,10 @@
 (function (Vue) {
 
     var _comments = [{
-        text: '“Muito deliciosa sua comida!<br/>Estou recomendando pra geral...”',
+        text: '\u201CMuito deliciosa sua comida!<br/>Estou recomendando pra geral...\u201D',
         author: 'Andr\u00E9 Freitas'
     },{
-        text: '“Ei, estou gostando muito da sua comida.<br/>Parabéns!”',
+        text: '\u201CEi, estou gostando muito da sua comida.<br/>Parab\u00E9ns!\u201D',
         author: 'Warlley Rodrigues'
     }];
 
@@ -12,8 +12,10 @@
         props: [],
         data: function() {
             return {
-                comments    : _comments,
-                current     : 0,
+                commentHeader   : 'Hist\u00F3rias de Sucesso',
+                commentTitle    : 'Opini\u00E3o de clientes',
+                comments        : _comments,
+                current         : 0,
             }
         },
         methods: {
@@ -25,7 +27,7 @@
             <div class="eight wide column s-ballon"><i class="comment icon"></i></div>
             <div class="eight wide column">
                 <div class="s-title">
-                    <h5>Histórias de Sucesso</h5><label>Opinião de clientes</label>
+                    <h5>{{commentHeader}}</h5><label>{{commentTitle}}</label>
                 </div>
                 <p class="s-description">
                     <span v-html="comments[current].text"></span>
