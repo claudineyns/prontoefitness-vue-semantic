@@ -22,7 +22,7 @@
                 id: 'pedidos',
                 icon: 'shopping bag',
                 label: 'Pedidos',
-                link: 'https://api.whatsapp.com/send?phone=5592981053211',
+                link: 'https://app.ifood.com.br/delivery/manaus-am/pronto-e-fitness-centro',
                 target: '_blank'
             },{
                 id: 'galeria',
@@ -30,9 +30,14 @@
                 label: 'Galeria',
                 link: 'https://www.instagram.com/prontoe_fitness/',
                 target: '_blank'
+            },{
+                id: 'contato',
+                icon: 'comments',
+                label: 'Contato',
+                link: 'https://api.whatsapp.com/send?phone=5592981053211',
+                target: '_blank'
             }],
             current: null,
-            // verticalMenu: false,
         },
         methods: {
             select: function(menu){
