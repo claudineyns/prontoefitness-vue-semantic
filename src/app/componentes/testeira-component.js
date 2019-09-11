@@ -6,9 +6,9 @@
         <div class="testeira">
             <div class="i-container">
                 <div class="i-header-group">
-                    <a class="ui label i-header-link" href="https://api.whatsapp.com/send?phone=5592981053211"
+                    <a class="ui label i-header-link" href="https://api.whatsapp.com/send?phone=5592981091815"
                         target="_blank">
-                        <i class="whatsapp icon"></i><span class="i-icon-label">(92) 98105-3211</span>
+                        <i class="whatsapp icon"></i><span class="i-icon-label">(92) 98109-1815</span>
                     </a>
                     <a class="ui label i-header-link" href="https://www.facebook.com/prontoefitness/"
                         target="_blank">
