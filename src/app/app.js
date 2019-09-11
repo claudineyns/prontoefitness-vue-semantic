@@ -34,7 +34,7 @@
                 id: 'contato',
                 icon: 'comments',
                 label: 'Contato',
-                link: 'https://api.whatsapp.com/send?phone=5592981053211',
+                link: 'https://api.whatsapp.com/send?phone=5592981091815',
                 target: '_blank'
             }],
             current: null,
