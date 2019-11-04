@@ -22,7 +22,8 @@
                 id: 'pedidos',
                 icon: 'shopping bag',
                 label: 'Pedidos',
-                link: 'https://app.ifood.com.br/delivery/manaus-am/pronto-e-fitness-centro',
+                //link: 'https://app.ifood.com.br/delivery/manaus-am/pronto-e-fitness-centro',
+                link: 'https://www.ifood.com.br/delivery/manaus-am/pronto-e-fitness-centro/82aa40f2-c66f-48d8-9f8c-b9a16f586fb1?utm_medium=share',
                 target: '_blank'
             },{
                 id: 'galeria',
