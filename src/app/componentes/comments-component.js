@@ -16,7 +16,7 @@
                 commentTitle    : 'Opini\u00E3o de clientes',
                 comments        : _comments,
                 current         : 0,
-            }
+            };
         },
         methods: {
             updateLeft: function() { this.current = Math.abs(this.current - 1); },

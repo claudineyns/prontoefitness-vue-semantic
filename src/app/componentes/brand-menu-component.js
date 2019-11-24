@@ -5,7 +5,7 @@
         data: function() {
             return {
                 current: this.menus[0]
-            }
+            };
         },
         template: `
         <div class="i-brand-menu">

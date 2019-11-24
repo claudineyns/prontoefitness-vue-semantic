@@ -1,4 +1,4 @@
-(function(Vue, window, document, console){
+(function(Vue, window, document){
 
     var
     vueHeaderApp = new Vue({
@@ -22,7 +22,6 @@
                 id: 'pedidos',
                 icon: 'shopping bag',
                 label: 'Pedidos',
-                //link: 'https://app.ifood.com.br/delivery/manaus-am/pronto-e-fitness-centro',
                 link: 'https://www.ifood.com.br/delivery/manaus-am/pronto-e-fitness-centro/82aa40f2-c66f-48d8-9f8c-b9a16f586fb1?utm_medium=share',
                 target: '_blank'
             },{
@@ -45,12 +44,13 @@
                 this.current = menu;
             },
         }
-    }),
-    vueMainApp = new Vue({
-        el: 'section',
-        data: {
-        }
     });
+
+    // Inicia o bloco 'section'
+    new Vue({ el: 'section', data: {} });
+
+    // Inicial o bloco 'footer'
+    new Vue({ el: 'footer', data: {} });
 
     vueHeaderApp.current = vueHeaderApp.menus[0];
 
@@ -58,4 +58,4 @@
         document.querySelector('.i-vue-startup').classList.remove('i-vue-startup');
     });
 
-})(Vue, window, document, console);
+})(Vue, window, document);
