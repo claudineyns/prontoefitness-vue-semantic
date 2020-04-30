@@ -16,26 +16,26 @@
                 id: 'sobre',
                 icon: 'info circle',
                 label: 'Sobre',
-                link: 'https://www.facebook.com/prontoefitness/',
+                link: '/info.html',
                 target: '_blank'
             },{
                 id: 'pedidos',
                 icon: 'shopping bag',
                 label: 'Pedidos',
                 //link: 'https://www.ifood.com.br/delivery/manaus-am/pronto-e-fitness-centro/82aa40f2-c66f-48d8-9f8c-b9a16f586fb1?utm_medium=share',
-                link: 'https://goomer.app/pronto-e-fitness-1',
+                link: '/pedidos.html',
                 target: '_blank'
             },{
                 id: 'galeria',
                 icon: 'images',
                 label: 'Galeria',
-                link: 'https://www.instagram.com/prontoe_fitness/',
+                link: '/galeria.html',
                 target: '_blank'
             },{
                 id: 'contato',
                 icon: 'comments',
                 label: 'Contato',
-                link: 'https://api.whatsapp.com/send?phone=5592981091815',
+                link: '/contato.html',
                 target: '_blank'
             }],
             current: null,
